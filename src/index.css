@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:white;
+
+}
+#labels{
+    color:white;
+}
+.dark-input {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
