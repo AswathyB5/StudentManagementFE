@@ -1,11 +1,12 @@
-import { BaseUrl } from "../../../../ReactCrud/src/services/BaseUrl"
-import CommonApi from "../../../../ReactCrud/src/services/CommonApi"
+
+
+import { BaseUrl } from "./BaseUrl";
 import commonApi from "./commonApi"
 
 
 
 export const getData =async()=>{
- return await CommonApi("get", `${BaseUrl}/stud_detail`, "");
+ return await commonApi("get", `${BaseUrl}/stud_detail`, "");
 }
 
 export const createData =async(reqBody)=>{
