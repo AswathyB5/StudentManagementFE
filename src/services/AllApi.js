@@ -1,6 +1,5 @@
+import { BaseUrl } from "./BaseUrl"
 
-
-import { BaseUrl } from "./BaseUrl";
 import commonApi from "./commonApi"
 
 
